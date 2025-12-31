@@ -90,3 +90,16 @@ for i in Grades:
 
 avg=sum/len(Grades)
 print(f"Average of homework grades is {avg:.2f}" )
+
+
+#task2whileloops
+
+def RightPasswordForExam():
+    right_password="12345a"
+    user_password=str(input("Enter the password. "))
+    while(user_password!=right_password):
+        print("Password you entered is wrong ! Please try again. ")
+        user_password=str(input("Enter the password. "))
+
+
+RightPasswordForExam()    
