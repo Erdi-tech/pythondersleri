@@ -127,4 +127,23 @@ def StudentInfo():
     #print(studentInformation[0])
 
 
-StudentInfo()
+#StudentInfo()
+
+
+def ShowGrades(studentGrades,StudentIDs):
+    for number,grade in studentGrades.items():
+        print("Student ID",number)
+        print(" Student grade:",grade)
+
+
+
+
+
+studentGrades= {
+
+    20244710019:50,
+    20244710071:75,
+    21244710089:90
+}
+StudentNo= 20244710019
+ShowGrades(StudentNo, studentGrades)
