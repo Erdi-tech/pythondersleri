@@ -102,4 +102,18 @@ def RightPasswordForExam():
         user_password=str(input("Enter the password. "))
 
 
-RightPasswordForExam()    
+#RightPasswordForExam()    
+#Sepet tanımla.Dizideki fiyat listesini de tanımla.
+#Döngü ile dizi üzerinde gezin.
+#Her ürünün fiyatını yazdır.
+
+def CalculateBasketTotal(product_costs):
+    total=0
+    for cost in product_costs:
+        print("Cost is ",cost)
+        total+=cost
+
+    print(f"Total cost of products in the basket is ",total) 
+
+product_costs=[100,200,50,60,40,75,82]
+CalculateBasketTotal(product_costs)
