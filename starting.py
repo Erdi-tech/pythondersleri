@@ -112,8 +112,19 @@ def CalculateBasketTotal(product_costs):
     for cost in product_costs:
         print("Cost is ",cost)
         total+=cost
-
     print(f"Total cost of products in the basket is ",total) 
 
 product_costs=[100,200,50,60,40,75,82]
-CalculateBasketTotal(product_costs)
+#CalculateBasketTotal(product_costs)
+
+def StudentInfo():
+    studentInformation=("20244710019","Erdi","Software Engineering")
+    print("Student number is",studentInformation[0])
+    print("Student name is",studentInformation[1])
+    print("Student department is",studentInformation[2])
+    
+    #studentInformation[0] = "237826734"
+    #print(studentInformation[0])
+
+
+StudentInfo()
