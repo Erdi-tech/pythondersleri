@@ -81,3 +81,12 @@ def studentInformation(studentID):
 
 studentInformation(101)
 
+##Task1 for döngüsü
+
+Grades= [100,50,90,80,20,70]
+sum=0 
+for i in Grades:       
+    sum=+i
+
+avg=sum/len(Grades)
+print(f"Average of homework grades is {avg:.2f}" )
